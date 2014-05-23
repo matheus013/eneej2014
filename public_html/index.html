@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/general.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">	
+		<meta http-equiv="content-type" content="text/html; charset=UTF8" >
+		<!--<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Marília" > !-->
+	</head>
+	
+	<body>
+	
+	<iframe class="likeFacebook" src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:65px;" allowTransparency="true"></iframe>
+			
+			<a href="index.html"><img src="images/logo-eneej.png" alt="logo" id="logo"></img></a>	
+		<div id="menu">
+			<ul>
+				<li><a class="linkMenu" onclick="changeContent('about.html')">O Evento</a></li>
+				<li><a class="linkMenu" onclick="changeContent('programacao.html')">Programa&ccedil;&atilde;o</a></li>
+				<li><a class="linkMenu" onclick="changeContent('area-do-congressista.html')">&Aacute;rea do Congressista</a></li>
+				<li><a class="linkMenu" onclick="changeContent('local.html')">Local</a></li>
+				<li><a class="linkMenu" onclick="changeContent('contato.html')">Contato</a></li>
+				<li><a class="linkMenu" onclick="changeContent('faq.html')">FAQ</a></li>
+				<li><a class="linkMenu" onclick="changeContent('http://testeblogeneej.blogspot.com.br/p/sobre-o-eneej.html')">Noticias</li>
+		</ul>
+		</div>
+			
+		<iframe src="home.html" id="content-frame"></iframe>
+		<div id="footer"></div>
+	</body>
 </html>
